@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3x8
+D Common Anode
+K 7segments anode
+$ENDCMP
+#
+#End Doc Library

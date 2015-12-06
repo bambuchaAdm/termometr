@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# PT100-RESCUE-termometr
+#
+DEF PT100-RESCUE-termometr U 0 40 Y Y 1 F N
+F0 "U" 115 -65 60 H V C CNN
+F1 "PT100-RESCUE-termometr" -110 -5 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 0  -25 -100  -25 -115  -50 -140  -50 -150 N
+P 4 0 1 0  -25 100  -25 115  -50 140  -50 150 N
+P 4 0 1 0  25 -100  25 -115  50 -140  50 -150 N
+P 4 0 1 0  25 100  25 115  50 140  50 150 N
+P 5 0 1 0  -50 100  -50 -100  50 -100  50 100  -50 100 N
+X ~ 1 -50 200 50 D 50 25 1 1 B
+X ~ 2 50 200 50 D 50 25 1 1 B
+X ~ 3 -50 -200 50 U 50 25 1 1 B
+X ~ 4 50 -200 50 U 50 25 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
