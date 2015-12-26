@@ -420,7 +420,7 @@ U 1 1 5651F806
 P 8500 4650
 F 0 "U8" H 9300 4050 60  0000 C CNN
 F 1 "3x8" H 7800 4050 60  0000 C CNN
-F 2 "Displays_7-Segment:Cx56-12" H 8650 4550 60  0001 C CNN
+F 2 "footprint:3x7segment" H 8650 4550 60  0001 C CNN
 F 3 "" H 8650 4550 60  0000 C CNN
 	1    8500 4650
 	1    0    0    -1  
@@ -574,7 +574,7 @@ U 1 1 565262A8
 P 10300 4650
 F 0 "U9" H 11100 4050 60  0000 C CNN
 F 1 "3x8" H 9600 4050 60  0000 C CNN
-F 2 "Displays_7-Segment:Cx56-12" H 10450 4550 60  0001 C CNN
+F 2 "footprint:3x7segment" H 10450 4550 60  0001 C CNN
 F 3 "" H 10450 4550 60  0000 C CNN
 	1    10300 4650
 	1    0    0    -1  
@@ -2347,17 +2347,11 @@ Wire Wire Line
 Wire Wire Line
 	3200 5250 3200 5800
 Wire Wire Line
-	3550 4900 4700 4900
-Wire Wire Line
-	3550 4800 3750 4800
-Wire Wire Line
-	3750 4800 3750 5250
+	3550 4800 5850 4800
 Wire Wire Line
 	3750 5250 3200 5250
 Wire Wire Line
-	3800 4700 3800 5550
-Wire Wire Line
-	3800 5550 4150 5550
+	3600 5550 4150 5550
 Wire Wire Line
 	750  5300 4600 5300
 Wire Wire Line
@@ -2493,13 +2487,11 @@ Wire Wire Line
 Wire Wire Line
 	4100 5050 4100 5850
 Wire Wire Line
-	3600 5150 3600 5000
-Wire Wire Line
 	3600 5000 3550 5000
 Wire Wire Line
 	1550 4800 1550 7250
 Wire Wire Line
-	3600 5150 1050 5150
+	1050 5150 3800 5150
 Wire Wire Line
 	1050 5150 1050 4700
 Wire Wire Line
@@ -2527,13 +2519,17 @@ Wire Wire Line
 Wire Wire Line
 	5200 4200 5900 4200
 Wire Wire Line
-	4700 4900 4700 4800
-Wire Wire Line
-	4700 4800 5850 4800
-Wire Wire Line
 	5900 4200 5900 4700
 Connection ~ 5900 4700
 Wire Wire Line
 	5850 4800 5850 4100
 Connection ~ 5850 4100
+Wire Wire Line
+	3800 5150 3800 4700
+Wire Wire Line
+	3600 5000 3600 5550
+Wire Wire Line
+	3750 5250 3750 4900
+Wire Wire Line
+	3750 4900 3550 4900
 $EndSCHEMATC
